@@ -11,8 +11,8 @@ exports.handler = async (event, context) => {
     const params = {
         TableName: "Products",
         Item: {
-            id: '1234',
-            productname: 'Solar Panels'
+            id: id,
+            productname: productname
         }
     };
 
